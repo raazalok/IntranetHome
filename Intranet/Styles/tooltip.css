@@ -1,0 +1,7 @@
+﻿
+.ui-tooltip, .arrow:after
+{    
+    border: 2px solid white;
+    font-family: Segoe UI, verdana, Arial;
+    font-size: 12px !important;
+}

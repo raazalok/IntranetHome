@@ -1,0 +1,164 @@
+﻿body
+{
+    color: #333333;
+    font-family: Segoe UI, verdana, Arial;
+    font-size: 11px;
+    margin: 0;
+    padding: 0px 20px 20px 20px;
+    text-align: justify;
+}
+
+fieldset
+{
+    font-family: Segoe UI, verdana, Arial;
+    border: 1px solid #CCCCCC;
+    margin: 1em 0;
+    padding: 1em;
+    font-size: 11px;
+}
+
+#wrapper
+{
+    width: 90%;
+    padding: 0px;
+    margin: 20px auto 0px auto;
+    height: auto;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+.clearer
+{
+    font-size: 0px;
+    line-height: 0px;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+    height: 0px;
+    width: auto;
+}
+#footer
+{
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    background-color: #f1f1f1;
+}
+#footer p
+{
+    color: #999;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+}
+#footer a:link, #footer a:visited, #footer a:active
+{
+    color: #999;
+    text-decoration: none;
+}
+#footer a:hover
+{
+    color: #ccc;
+    text-decoration: none;
+}
+
+.gridView
+{
+    font-family: Segoe UI, verdana, Arial;
+}
+
+.gViewRow
+{
+    color: #333333;
+    background-color: #F7F6F3;
+}
+
+.gViewAltRow
+{
+    color: #333333;
+    background-color: #FFFFFF;
+}
+table > caption
+{
+    background-color: #DCDCDC;
+}
+
+.fieldHeader
+{
+    font-family: Verdana, Calibri;
+    padding: 0 0.5em;
+    text-align: left;
+    font-weight: bold;
+}
+
+input[type="button"], input[type="submit"]
+{
+    background-color: #FFEEDD;
+    border-color: #669966 #336633 #336633 #669966;
+    border-style: solid;
+    border-width: 1px;
+    color: #005500;
+    font: bold 12px 'trebuchet ms' ,helvetica,sans-serif;
+}
+.empdettd
+{
+    font-family: Verdana, Calibri;
+    border-bottom: 0.1em solid lightGrey;
+    border-top: 0.1em solid lightGrey;
+    border-right: 0.1em solid lightGrey;
+    padding: 0 0.5em;
+    border-left: 0.1em solid lightGrey;
+    text-align: left;
+    font-weight: bold;
+}
+.empdet
+{
+    font: 11px/24px Verdana, Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-left: 0.1em solid lightGrey;
+    border-bottom: 0.1em solid lightGrey;
+    border-top: 0.1em solid lightGrey;
+    border-right: 0.1em solid lightGrey;
+    text-align: center;
+}
+.ui-menu-item
+{
+    font-size: 12px;
+    border: 1px solid #CCCCCC;
+    text-indent: 9px;
+    text-align: left;
+}
+.ErrorClass
+{
+    color: red;
+}
+
+#ui-datepicker-div
+{
+    font-family: Verdana;
+    font-size: 11px;
+}
+textarea
+{
+    font-weight: bold;
+}
+.ui-grid-header
+{
+    border: 1px solid #aed0ea;
+    background: #DCDCDC 50% 50% repeat-x;
+    color: #222222;
+    font-weight: bold;
+}
+.TextError
+{
+    background-color: red;
+}
+.spanclass
+{
+    font-family: Segoe UI, verdana, Arial;
+}
+
+input[type=text]
+{
+    font-family: Segoe UI, verdana, Arial;
+    font-weight: bold;
+}

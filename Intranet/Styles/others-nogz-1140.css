@@ -1,0 +1,122 @@
+div.shipment-input {
+    background-color: #FDF9FF;
+    border: 1px solid #DDDDDD;
+    font-size: 13px;
+    margin: 0 10px 0 0;
+    padding: 10px;
+    text-align: center;
+}
+.shipment-outer-wrapper {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 970px;
+}
+div.form-input-wrapper {
+    margin-bottom: 10px;
+    width: 100%;
+}
+.hover-underline:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+table.shipment-outer-table {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+table.shipment-outer-table td {
+    vertical-align: top;
+}
+table.shipment-table {
+    border: 1px solid #DDDDDD;
+    margin: 5px 0;
+    padding: 2px;
+    width: 99%;
+}
+input#trackingId, input#emailId {
+    margin-bottom: 5px;
+    width: 120px;
+}
+div.shipment-table-header {
+    font-size: 16px;
+    margin: 5px;
+    padding: 2px;
+    text-align: left;
+}
+table.shipment-table tr.tr-bg-light {
+    background-color: #FFFCF3;
+}
+table.shipment-table tr.tr-bg-dark {
+    background-color: #F5F2E8;
+}
+table.shipment-table tr.tr-bg-same {
+    background-color: #FDFDFC;
+}
+table.shipment-table th {
+    background-color: #FFFFFF;
+    background-image: url("../prod/images/fkart/smenu-hover-12280.png");
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #F5F2E8;
+    color: #4C4C4C;
+    font-size: 13px;
+    padding: 2px 6px;
+    text-align: left;
+}
+table.shipment-table td {
+    border-bottom: 2px solid #FFFFFF;
+    font-size: 11px;
+    padding: 2px 6px;
+    text-align: left;
+}
+td.form-holder {
+    vertical-align: top;
+    width: 280px;
+}
+div.id-error {
+    color: #FF0000;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+div.tracking-form-heading {
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+div.tracking-form-msg {
+    font-size: 13px;
+    text-align: left;
+}
+div.no-input {
+    background-color: #FDF9FF;
+    border: 1px solid #DDDDDD;
+    font-size: 13px;
+    height: 163px;
+    margin: 0 0 150px;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+img.rupee {
+    border: 0 solid #FFFFFF;
+    vertical-align: baseline;
+}
+div.suggestion {
+    font-size: 11px;
+}
+div.retrieve-error {
+    background-color: #FFCCCC;
+    border-bottom: 1px solid #FF0000;
+    border-top: 1px solid #FF0000;
+    color: #CC1100;
+    margin: 5px 0;
+    padding: 5px;
+}
+.error-list {
+    font-size: 11px;
+    margin-left: 15px;
+    text-align: left;
+}

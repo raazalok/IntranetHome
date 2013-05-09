@@ -1,0 +1,348 @@
+﻿/*................For Bottom Menu.........*/
+.bottomMenu
+{
+	font-size: 8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:Black;
+	padding-top:3px; 
+	padding-bottom:3px;
+}
+
+
+.bottomMenu a
+{
+	font-size: 8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:Black;
+}
+.bottomMenu a:hover
+{
+	font-size: 8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:White;
+	background-color:#2E82BE;		
+}
+
+/*.................For Menu................*/
+
+.menuItem
+{
+	font-size: 8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align:left;
+    padding:2px 3px 2px 5px;
+    width:174px;
+    font-weight:bold;
+    
+    /*background-color :#F7F7F7;*/
+    background-color :#EFEDEE;
+    /*background-image: url('/NewImages/PGImage/bullet.gif') !Important;*/
+    background-repeat: no-repeat;
+    text-decoration:none;
+    white-space:normal;
+   border:solid 1pt #E8DFE3;
+    
+    border-bottom-color:#efedee;
+    
+}
+.DynmenuItem
+{
+	font-size: 8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align:left;
+    padding:2px 3px 2px 5px;
+    width:174px;
+    font-weight:bold;
+     background-color :#EFEDEE;
+    /*background-image: url('/NewImages/PGImage/bullet.gif') !Important;*/
+    background-repeat: no-repeat;
+    text-decoration:none;
+    white-space:normal;
+    /*border:solid 1pt #E8DFE3;*/
+    /*border-bottom-color:#ECECEC;*/
+    border-bottom-color:#efedee;
+    border-bottom:solid 1pt #E8DFE3;
+	}
+
+.menuItem a
+{
+    /*color:#134C8F;*/
+    color:Black;
+    width:100%;
+    /*border:solid 1pt #A90F05;*/
+
+}
+.DynmenuItem a
+{
+    /*color:#134C8F;*/
+    color:Black;
+    width:100%;
+    /*border:solid 1pt #A90F05;*/
+}
+
+.menuHover
+{
+	display:block;
+   /*border:solid 1pt #A90F05;*/
+    background:#213F9A url('images/Master/menu_bgnd_blue.jpg') no-repeat;
+} 
+
+.menuHoverStatic
+{
+	display:block;
+   /*border:solid 1pt #A90F05;*/
+   background:#213F9A url('images/Master/menu_bgnd_blue.jpg') no-repeat;
+} 
+
+.menuItem a:hover
+{
+	font-family:Arial Sans-Serif;
+    color:white;
+    width:100%;
+   /*border:solid 1pt #A90F05;*/
+     
+}
+
+.DynmenuItem a:hover
+{
+	font-family:Arial Sans-Serif;
+    color:white;
+    width:100%;
+  /* border:solid 1pt #A90F05;*/
+  border:none;
+     
+}
+.selectedMenu
+{
+ color:Red;
+}
+/*..............End................*/
+
+/*.............For HomeSP User Control...............*/
+.news_date 
+	{
+		font-family:Verdana;
+		font-size: 7pt;
+		font-weight:bold;
+		color:#124B90;
+		/*color:#F12322;*/
+		text-align:left;
+		padding-left:3px;
+	}
+	
+.text 
+	{
+		font-family: Arial;
+		font-size: 18pt;
+		line-height: 135%;
+		vertical-align:top;
+		color:Red;
+		text-align:justify;
+		margin:0px;
+		padding-right:2px;
+	}
+	.StockLeft
+	{
+		text-align:left;
+		padding-left:10px;	
+	}
+	.StockRight
+	{
+		text-align:right;
+		padding-right:10px;	
+	}
+	.UserControlMainMenu
+	{
+	 width:150px;
+	 padding:0px;
+	 text-align:center;
+	 margin:0px;
+	 vertical-align:top;
+	 background-color:#EFEDEE;
+	}
+	
+	.styleMegorRegionsEn
+	{
+		background:#fff url(images/Master/majorregions.jpg) no-repeat;
+		width:170px;
+		height:15px;
+	}
+	.styleMegorRegionsHi
+	{
+		background:#fff url(images/Master/powergridmejorregion_hindi.jpg) no-repeat;
+		width:170px;
+		height:15px;
+	}
+	.styletdDisplay
+	{
+		 text-align:center;
+		 background-color:#EFEDEE;	
+	}
+	.styleStock
+	{
+		width:100%;
+		color: #123B83;
+		font-family:Verdana; 
+		font-size:10px; 
+		text-align:left;	
+	}
+.StyletblStock 
+	{
+		font-family: Arial;
+		font-size: 8pt;
+		line-height: 135%;
+		vertical-align:top;
+		color:Black;
+		text-align:justify;
+		margin:0px;
+		padding-right:2px;
+		width:100%;
+		margin:0px;
+		padding:0px;
+		color:#123B83;
+		
+	}
+/*......................End.......................*/
+
+/*.........For Master Page............*/
+.SGLHeadTD
+ {
+    text-align:left;
+    vertical-align:top;
+ }
+ .SGRHeadTD
+ {
+     width:70%;
+ }
+ .SGMHeadTD
+ {
+   width :1%;
+   vertical-align:middle;
+   text-align:left;
+ }
+ .SGLSideTD
+ {
+     background-color:#efedee;
+     vertical-align:top;
+     width:174px;
+     padding-left:0;
+     padding-right:0;
+ }
+ .SGcontent
+ {
+     float:left;
+     background-color:white;
+     vertical-align:top;
+  }
+.content
+     {
+         margin:auto;
+         
+         background-color:white;
+         border:Solid 1px black;
+     }
+
+ .SGRSideTD
+ {
+    background-color:#efedee;           
+    /*height:700px;*/
+     width:174px;
+     vertical-align:top;
+     border-left-style:solid;
+     border-left-width:1px;
+     border-left-color:Gray;
+ }
+ .SGfooter
+ {
+    vertical-align:top;	
+    height:10px;
+ }
+
+.borderTable 
+{	
+ background-color:White;
+ margin:0px;
+ 
+}
+.style1
+{
+  float: left;
+  background-color: white;
+  vertical-align: top;
+ 
+}
+.Search
+{
+    color:White;
+    font:7pt arial;	
+}
+.styletblmainMaster
+{
+	width:100%;
+	/*background-color:Green;*/
+    margin:0px;padding:0px;
+    padding:0px; 
+    border:none;
+}
+.tblBannerMaster
+{
+	width:100%;
+	/*background:#043659;*/
+	/*border:none 0px #fff;*/
+	border:none;
+	margin:0px;
+	padding:0px;
+}
+.styledivLanguage
+{
+	width:100%;
+	background-color:#EFEDEE;
+	
+	
+	text-align:left;
+	padding-left:2px;
+	padding-top:2px;
+}
+.styleSpanLanguage
+{
+	 color:#F2403E;
+	 background-color:#EFEDEE; 
+	 font-family:Arial; 
+	 padding-left:10px; 
+	 font-size:12px;
+	 font-weight:bold;
+}
+.styleRadionButton
+{
+	 color:#124B90;
+	 background-color:#EFEDEE; 
+	 font-family:Arial; 
+	 font-size:10px	
+}
+
+.styleSmoothGreen
+{
+	width:97%; 
+	text-align:left; 
+	color:black; 
+	font-size:10px; 
+	font-family:Arial,helvetica,sans-serif;
+}
+/*................End....................*/	
+
+/*For Language*/
+.styleLanguageHindi
+{
+	color:Orange;
+}
+.styleLanguageEnglish
+{
+	color:#02521A;
+}
+	
+/*For Convergent Site*/
+.topStyle
+{
+	background-color:white;
+	padding:0;
+}

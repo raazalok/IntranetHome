@@ -1,0 +1,106 @@
+body
+{
+    background-color: #E1E1E1 !important;
+}
+#login-box
+{
+    width: 544px;
+    height: 352px;
+    padding: 58px 46px 0 46px;
+    color: #ebebeb;
+    font: 12px Arial, Helvetica, sans-serif;
+    background: url(../Images/login-box-backg.png) no-repeat left top;
+}
+
+#login-box img
+{
+    border: none;
+}
+
+#login-box h2
+{
+    padding: 0;
+    margin: 0;
+    color: #ebebeb;
+    font: bold 44px "Calibri" , Arial;
+}
+
+
+#login-box-name
+{
+    float: left;
+    display: inline;
+    width: 80px;
+    text-align: right;
+    padding: 14px 10px 0 0;
+    margin: 0 0 7px 0;
+}
+
+.login-box-field
+{
+    float: left;
+    display: inline;
+    width: 230px;
+    margin: 0 0 7px 0;
+}
+
+.forgot-link
+{
+    float: left;
+    width: 200px;
+    margin-top: 7px;
+}
+
+.login-box-button
+{
+    float: left;
+    display: block;
+    width: 230px;
+    margin: 0 0 7px 0;
+}
+.login-box-invalid
+{
+    float: left;
+    display: inline;
+    width: 230px;
+    margin: 0 280px 7px 0;
+}
+
+.form-login
+{
+    width: 205px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #3b454f;
+    background-color: #ffffff;
+    font-size: 16px;    
+}
+
+
+.login-box-options
+{
+    clear: both;
+    font-size: 11px;
+}
+
+
+.login-box-wrong
+{
+    clear: both;
+    font-size: 1em;
+    font-weight: bold;
+    color: red;
+}
+
+.login-box-options a
+{
+    color: #ffffff;
+    font-size: 11px;
+}
+.login-box-options a:hover
+{
+    color: yellow;
+}
+#div-major {
+    margin-left: 400px;
+    margin-top: 100px;
+}

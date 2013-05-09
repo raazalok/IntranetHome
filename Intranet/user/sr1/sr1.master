@@ -1,0 +1,336 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="sr1.master.cs" Inherits="user_sr1_sr1" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <meta name="description" content="This is Powergrid's Intranet Application to be used by powergrid employees' only">
+    <meta name="keywords" content="Powergrid, PGCIL, Powergrid Intranet, Powergrid IT">
+    <meta name="revisit-after" content="1 month">
+    <meta name="abstract" content="Intranet Website of Powergrid">
+    <meta name="author" content="Powergrid IT Department, Alok Raj">
+    <meta name="copyright" content="Powergrid Corporation of India Limited">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta content="private" name="Security" />
+    <meta name="robots" content="index, nofollow">
+    <meta charset="UTF-8">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    <meta http-equiv="EXPIRES" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="dc.language" content="hi">
+    <meta name="dc.source" content="http://intranet.powergridindia.com/">
+    <meta name="dc.relation" content="http://www.powergridindia.com/">
+    <meta name="dc.title" content="Powergrid Intranet System">
+    <meta name="dc.keywords" content="PGCIL, powergrid, intranet, powergrid it department">
+    <meta name="dc.subject" content="Powergrid Intranet">
+    <meta name="dc.description" content="This is Powergrid's Intranet Application to be used fby powergrid employees' only">
+    <script type="text/javascript">
+        // if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement("style");
+        msViewportStyle.appendChild(
+              document.createTextNode(
+                  "@-ms-viewport{width:auto!important}"
+              )
+          );
+        msViewportStyle.appendChild(
+              document.createTextNode(
+                  "@-ms-viewport{height:auto!important}"
+              )
+          );
+        document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+        // }
+    </script>
+    <link rel="icon" type="image/ico" href="../../Images/Pgcil.ico" />
+    <link href="../../styles/modern.css" rel="stylesheet" type="text/css" />
+    <link href="../../styles/modern-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="../../Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/themes/cupertino/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+    <link href="../../styles/style1.css" rel="stylesheet" type="text/css" />
+    <link href="../../styles/topmenu2/ddsmoothmenu.css" rel="stylesheet" type="text/css" />
+    <link href="../../styles/topmenu2/ddsmoothmenu-v.css" rel="stylesheet" type="text/css" />
+    <script src="../../Scripts/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="../../Scripts/jqaddon/jBar-master/js/jbar.min.js" type="text/javascript"></script>
+    <script src="../../Scripts/modernizr.custom.13816.js" type="text/javascript"></script>
+    <script src="../../styles/topmenu2/ddsmoothmenu.js" type="text/javascript"></script>
+    <script src="../../Styles/modernizr.custom.77003.js" type="text/javascript"></script>
+    <link href="Metro UI CSS_files/pluso.css" type="text/css" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="h" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="modern-ui">
+    <form id="Form1" runat="server">
+    <div class="page">
+        <script type="text/javascript">
+            function getWindowsSize() {
+                $("#sizeX").html('W: ' + $(window).width());
+                $("#sizeY").html('H: ' + $(window).height());
+            }
+
+            $(function () {
+                getWindowsSize();
+                $(window).resize(function () {
+                    getWindowsSize();
+                });
+            });
+        </script>
+        <div style="display: none; position: fixed; height: 100px; width: 100px; padding: 10px;"
+            class="bottom-right bg-color-darken fg-color-white">
+            Screen size:
+            <div id="sizeX">
+                W: 1349</div>
+            <div id="sizeY">
+                H: 610</div>
+        </div>
+        <div class="bg-color-white fg-color-white" style="background-color: #DCDCDC;">
+            <img src="../../images/power-grid.png" alt="Powergrid Home Page" style="float: left" />
+        </div>
+    </div>
+    <div>
+        <div id="smoothmenu1" class="ddsmoothmenu" style="background-color: #123456; z-index: 0;">
+            <asp:Literal runat="server" ID="lm"></asp:Literal>
+            <br style="clear: left" />
+        </div>
+        <br/>
+        <div class="page-region" style="z-index: 1">
+                <div class="page-region-content">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="span4">
+                                <div class="span4 bg-color-blue padding30 text-center place-left" style="height: auto;">
+                                    <a href="http://www.powergridindia.com" alt="Click Here To Go To Powergrid India Website">
+                                        <h4 class="fg-color-white">
+                                            Internet Website
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="span4">
+                                <div class="span4 bg-color-green padding30 text-center place-left" style="height: auto;">
+                                    <a href="http://apps.powergridindia.com/intranet" alt="Click Here To Go To Powergrid Intranet Website">
+                                        <h4 class="fg-color-white">
+                                            Intranet Website
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="span4">
+                                <div class="span4 bg-color-red padding30 text-center place-left" style="height: auto;">
+                                    <a href="http://sps.powergridindia.com" alt="Click Here To Go To Powerportal">
+                                        <h4 class="fg-color-white">
+                                            Powerportal
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Second Row -->
+                        <div class="row">
+                            <div class="span4">
+                                <div class="span4 bg-color-pink padding30 text-center place-left" style="height: auto;">
+                                    <a href="http://hr.powergridindia.com" alt="Click Here To Go To Powergrid HR Website">
+                                        <h4 class="fg-color-white">
+                                            HR Website
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="span4">
+                                <div class="span4 bg-color-orange padding30 text-center place-left" style="height: auto;">
+                                    <a href="http://fin.powergridindia.com" alt="Click Here To Go To Powergrid Intranet Website">
+                                        <h4 class="fg-color-white">
+                                            Finance Website
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="span4">
+                                <div class="span4 bg-color-purple padding30 text-center place-left" style="height: auto;">
+                                    <a href="http://hr.powergridindia.com:8080" alt="Click Here To Go To Powergrid HRD Website">
+                                        <h4 class="fg-color-white">
+                                            HRD Website
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3rd Row-->
+                        <div class="row">
+                            <div class="span4">
+                                <div class="span4 bg-color-newOrange padding30 text-center place-left" style="height: auto;">
+                                    <a href="http://192.168.1.229" alt="Click Here To Go To Powergrid HR Establishment Website">
+                                        <h4 class="fg-color-white">
+                                            HR Estb. Website
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="span4">
+                                <div class="span4 bg-color-darkGray padding30 text-center place-left" style="height: auto;">
+                                    <a href="http://mail.powergridindia.com" alt="Click Here To Go To Powergrid Exchange Email">
+                                        <h4 class="fg-color-white">
+                                            Exchange Email
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="span4">
+                                <div class="span4 bg-color-Yellowish padding30 text-center place-left" style="height: auto;">
+                                    <a href="http://mail.powergrid.in" alt="Click Here To Go To Powergrid Zimbra Email">
+                                        <h4 class="fg-color-white">
+                                            Zimbra Email
+                                        </h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="background-color: black; height: 2px;" />
+                    <div class="grid">
+                        <div class="row">
+                            <div class="span4 bg-color-greenLight">
+                                <img src="./Metro UI CSS_files/grid.png" class="place-right" style="margin: 10px;">
+                                <a href="http://apps.powergridindia.com/ims/10-0090-001.aspx" alt="Click Here To Go To IMS application">
+                                    <h4 class="fg-color-white">
+                                        &nbsp;Inspection Call Management System</h4>
+                                </a>
+                            </div>
+                            <div class="span4 bg-color-facebookBlue">
+                                <img src="./Metro UI CSS_files/grid.png" class="place-right" style="margin: 10px;">
+                                <a href="http://pms.powergrid.in" alt="Click Here To Go To PMS application">
+                                    <h4 class="fg-color-white">
+                                        &nbsp;Project Monitoring System</h4>
+                                </a>
+                            </div>
+                            <div class="span4 bg-color-yellow">
+                                <img src="./Metro UI CSS_files/responsive.png" class="place-right" style="margin: 10px;">
+                                <a href="http://epms.powergrid.in" alt="Click Here To Go To EPMS application">
+                                    <h4 class="fg-color-white">
+                                        &nbsp;Enterprise Performance Monitoring System</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 2nd Row-->
+                        <div class="row">
+                            <div class="span4 bg-color-blue">
+                                <img src="./Metro UI CSS_files/simple.png" class="place-right" style="margin: 10px;">
+                                <a href="http://apps.powergridindia.com/powergrid/applications/Tenders/01-0001-001.aspx" alt="Click Here To Go To Powergrid Tender application">
+                                    <h4 class="fg-color-white">
+                                        &nbsp;Tender</h4>
+                                </a>
+                            </div>
+                            <div class="span4 bg-color-blueLight">
+                                <img src="./Metro UI CSS_files/simple.png" class="place-right" style="margin: 10px;">
+                                <a href="http://apps.powergridindia.com/POWERGRID/applications/VINS/13-0001-000.aspx"
+                                    alt="Click Here To Go To Powergrid VINS application">
+                                    <h4 class="fg-color-white">
+                                        &nbsp;Vigilance Application</h4>
+                                </a>
+                            </div>
+                            <div class="span4 bg-color-grayDark">
+                                <img src="./Metro UI CSS_files/responsive.png" class="place-right" style="margin: 10px;">
+                                <a href="http://teams.powergrid.in/erp" alt="Click Here To Go To ERP Corner">
+                                    <h4 class="fg-color-white">
+                                        &nbsp;ERP Corner</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="background-color: black; height: 2px;" />
+                    <div class="grid">
+                        <div class="row">
+                            <div class="span4">
+                                <img src="./author.jpg" style="width: 100%">
+                                <p class="tertiary-info-secondary-text bg-color-grayDark" style="padding: 10px; color: #fff;">
+                                    Welcome to new Default page of
+                                    <abbr title="By Powergrid IT Department.">
+                                        Powergrid</abbr>.</p>
+                            </div>
+                            <!-- 2nd Column -->
+                            <div class="span4">
+                                <h2 style="background-color: #DCDCDC; width: 290px;">
+                                    Welcome Video</h2>
+                                <p>
+                                    <video poster="author.jpg" controls width="290px">
+								<source src="POWERGRID_Growth_Story_1.webm" type='video/webm; codecs="vp8.0, vorbis"'/>
+								<source src="POWERGRID_Growth_Story_1.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'/>
+								<source src="POWERGRID_Growth_Story_1.ogv" type='video/ogg; codecs="theora, vorbis"'/>								
+								<p><a href="POWERGRID_Growth_Story_1.mp4"> Download PowerGrid Video</a></p>
+							</video>
+                                </p>
+                                <br />
+                            </div>
+                            <!-- 3rd Column -->
+                            <!--<div class="span4">
+                            <h2>Socialize</h2>
+                           
+                            <p>If you like the project, share it...</p>
+                            <br>
+                            <h2>GitHub Project Info:</h2>
+                            <table class="github-info" data-repo="olton/Metro-UI-CSS">
+                                <tbody>
+                                <tr>
+                                    <td>Starred:</td>
+                                    <td class="right"><span class="github-watchers">921</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Forks:</td>
+                                    <td class="right bg"><span class="github-forks">199</span></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="padding: 20px 0 0; border: 0;">
+                                        <button class="image-button bg-color-pink fg-color-white" onclick="document.location.href=&#39;https://github.com/olton/Metro-UI-CSS&#39;">View on Github<img class="bg-color-red" src="./Metro UI CSS_files/github.png"></button>
+                                        <button class="image-button bg-color-darken fg-color-white" onclick="document.location.href=&#39;https://github.com/olton/Metro-UI-CSS/zipball/master&#39;">Download<img class="bg-color-green" src="./Metro UI CSS_files/download-32.png"></button>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                           
+                            <h2>Immediate objectives:</h2>
+                            <ol>
+                                <li>Responsive design</li>
+                                <li>Tiles animation effects</li>
+                                <li>Additional components</li>
+                                <li>Integration in Visual Studio</li>
+                                <li>Much, much more...</li>
+                            </ol>                          
+                            <br>                            
+                        </div>-->
+                        </div>
+                        <div class="row">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bar">
+                <div class="header-bar-inner bg-color-darken" style="padding: 10px 10px 5px;">
+                    <p class="tertiary-text fg-color-white" style="text-align: center">
+                        2013, © <a class="fg-color-blueLight" href="http://www.powergridindia.com">Powergrid
+                            Corporation of India Limited.</a></p>
+                </div>
+            </div>
+        
+        <asp:ContentPlaceHolder ID="b" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <script type="text/javascript">
+
+        ddsmoothmenu.init({
+            mainmenuid: "smoothmenu1", //menu DIV id
+            orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+            classname: 'ddsmoothmenu', //class added to menu's outer DIV
+            //customtheme: ["#1c5a80", "#18374a"],
+            contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+        });
+
+        ddsmoothmenu.init({
+            mainmenuid: "smoothmenu2", //Menu DIV id
+            orientation: 'v', //Horizontal or vertical menu: Set to "h" or "v"
+            classname: 'ddsmoothmenu-v', //class added to menu's outer DIV
+            //customtheme: ["#804000", "#482400"],
+            contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+        });
+    </script>
+</body>
+</html>

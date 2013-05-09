@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Powergrid.Intranet.Bll", "BllIntranet\Com.Powergrid.Intranet.Bll.csproj", "{C8FF3747-3179-4B3D-AF54-4226DAE38F39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Powergrid.Intranet.Dal", "DalIntranet\Com.Powergrid.Intranet.Dal.csproj", "{0EE77001-E782-47E6-8B1E-70C22AC25578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Powergrid.Intranet.Model", "ModelIntranet\Com.Powergrid.Intranet.Model.csproj", "{8F648FA5-E7D1-4482-AD60-94C2BD692290}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Intranet", "Intranet\", "{724C91AD-8CE4-44E2-BD04-DB887C13ED65}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{C8FF3747-3179-4B3D-AF54-4226DAE38F39}|BllIntranet.dll;{0EE77001-E782-47E6-8B1E-70C22AC25578}|DalIntranet.dll;{8F648FA5-E7D1-4482-AD60-94C2BD692290}|ModelIntranet.dll;{D041E68D-E6F5-4FC2-A790-F1D3D18501BE}|Com.Powergrid.Intranet.Utility.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Intranet"
+		Debug.AspNetCompiler.PhysicalPath = "Intranet\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Intranet\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Intranet"
+		Release.AspNetCompiler.PhysicalPath = "Intranet\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Intranet\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "11855"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Powergrid.Intranet.Utility", "Com.Powergrid.Intranet.Utility\Com.Powergrid.Intranet.Utility.csproj", "{D041E68D-E6F5-4FC2-A790-F1D3D18501BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8FF3747-3179-4B3D-AF54-4226DAE38F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FF3747-3179-4B3D-AF54-4226DAE38F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FF3747-3179-4B3D-AF54-4226DAE38F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FF3747-3179-4B3D-AF54-4226DAE38F39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE77001-E782-47E6-8B1E-70C22AC25578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE77001-E782-47E6-8B1E-70C22AC25578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE77001-E782-47E6-8B1E-70C22AC25578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE77001-E782-47E6-8B1E-70C22AC25578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F648FA5-E7D1-4482-AD60-94C2BD692290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F648FA5-E7D1-4482-AD60-94C2BD692290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F648FA5-E7D1-4482-AD60-94C2BD692290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F648FA5-E7D1-4482-AD60-94C2BD692290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724C91AD-8CE4-44E2-BD04-DB887C13ED65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724C91AD-8CE4-44E2-BD04-DB887C13ED65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724C91AD-8CE4-44E2-BD04-DB887C13ED65}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{724C91AD-8CE4-44E2-BD04-DB887C13ED65}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D041E68D-E6F5-4FC2-A790-F1D3D18501BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D041E68D-E6F5-4FC2-A790-F1D3D18501BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D041E68D-E6F5-4FC2-A790-F1D3D18501BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D041E68D-E6F5-4FC2-A790-F1D3D18501BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

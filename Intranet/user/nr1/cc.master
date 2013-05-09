@@ -1,0 +1,137 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="cc.master.cs" Inherits="user_cc_cc" %>
+
+<%@ Register Src="controls/imgscroller.ascx" TagName="imgscroller" TagPrefix="uc1" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <meta name="description" content="This is Powergrid's Intranet Application to be used by powergrid employees' only">
+    <meta name="keywords" content="Powergrid, PGCIL, Powergrid Intranet, Powergrid IT">
+    <meta name="revisit-after" content="1 month">
+    <meta name="abstract" content="Intranet Website of Powergrid">
+    <meta name="author" content="Powergrid IT Department, Alok Raj">
+    <meta name="copyright" content="Powergrid Corporation of India Limited">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta content="private" name="Security" />
+    <meta name="robots" content="index, nofollow">
+    <meta charset="UTF-8">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    <meta http-equiv="EXPIRES" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="dc.language" content="hi">
+    <meta name="dc.source" content="http://intranet.powergridindia.com/">
+    <meta name="dc.relation" content="http://www.powergridindia.com/">
+    <meta name="dc.title" content="Powergrid Intranet System">
+    <meta name="dc.keywords" content="PGCIL, powergrid, intranet, powergrid it department">
+    <meta name="dc.subject" content="Powergrid Intranet">
+    <meta name="dc.description" content="This is Powergrid's Intranet Application to be used fby powergrid employees' only">
+    <link rel="icon" type="image/ico" href="../../Images/Pgcil.ico" />
+    <link href="../../Content/themes/cupertino/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+    <link href="../../Styles/admin.css" rel="stylesheet" type="text/css" />
+    <link href="../../Styles/admin-ie.css" rel="stylesheet" type="text/css" />
+    <link href="../../styles/topmenu2/ddsmoothmenu.css" rel="stylesheet" type="text/css" />
+    <script src="../../scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="../../scripts/jquery-ui-1.10.2.min.js" type="text/javascript"></script>
+    <script src="../../styles/topmenu2/ddsmoothmenu.js" type="text/javascript"></script>
+    <link href="../../scripts/jquery_news_ticker/styles/ticker-style.css" rel="stylesheet"
+        type="text/css" />
+    <script src="../../scripts/jquery_news_ticker/includes/jquery.ticker.js" type="text/javascript"></script>
+    <script src="../../scripts/jquery_news_ticker/includes/site.js" type="text/javascript"></script>
+    <%--<link href="../../styles/style1.css" rel="stylesheet" type="text/css" />--%>
+    <%--<link href="../../styles/modern-responsive.css" rel="stylesheet" type="text/css" />--%>
+    <%--<link href="../../styles/modern.css" rel="stylesheet" type="text/css" />--%>
+    <%--<script src="../../Scripts/jqaddon/jBar-master/js/jbar.min.js" type="text/javascript"></script>--%>
+    <%--<script src="../../Scripts/modernizr.custom.13816.js" type="text/javascript"></script>--%>
+    <%--<link href="../../styles/topmenu2/ddsmoothmenu-v.css" rel="stylesheet" type="text/css" />--%>
+    <asp:ContentPlaceHolder ID="h" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="modern-ui">
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div style="display: none; position: fixed; height: 100px; width: 100px; padding: 10px;"
+            class="bottom-right bg-color-darken fg-color-white">
+            Screen size:
+            <div id="sizeX">
+                W: 1349</div>
+            <div id="sizeY">
+                H: 610</div>
+        </div>
+        <div class="bg-color-white fg-color-white" style="background-color: #DCDCDC;">
+            <img src="../../images/power-gridcc.png" alt="Powergrid Home Page" style="float: left" />
+        </div>
+    </div>
+    <div>
+        <div id="smoothmenu1" class="ddsmoothmenu" style="background-color: #123456; z-index: 0;">
+            <asp:Literal runat="server" ID="lm"></asp:Literal>
+            <br style="clear: left" />
+        </div>
+        <div class="marquee">
+            <%--<asp:PlaceHolder runat="server" ID="phm"></asp:PlaceHolder>--%>
+            <asp:Literal runat="server" ID="ltm"></asp:Literal>
+        </div>
+        <div id="main">
+            <h2>
+                Home</h2>
+            <div id="subcontainer">
+                <div id="sideNav">
+                    <div style="border: none;" class="collapse">
+                        <h3>
+                            Navigation</h3>
+                        <div style="border: 1px solid #000;">
+                            <ul>
+                                <li><a href="/admin/home.aspx">Home</a></li>
+                                <li><a href="/admin/content.aspx">Content</a></li>
+                                <li><a href="/admin/admin.aspx">System Administration</a></li>
+                                <li><a target="_blank" href="/">View Site</a></li>
+                                <li><a href="/logout.ashx">Logout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapseWrapper">
+                    <asp:ContentPlaceHolder ID="b" runat="server">
+                        <uc1:imgscroller ID="imgscroller1" runat="server" />
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div id="rightNav">
+                    <div style="border: none;" class="collapse">
+                        <h3>
+                            Navigation</h3>
+                        <div style="border: 1px solid #000;">
+                            <ul>
+                                <li><a href="/admin/home.aspx">Home</a></li>
+                                <li><a href="/admin/content.aspx">Content</a></li>
+                                <li><a href="/admin/admin.aspx">System Administration</a></li>
+                                <li><a target="_blank" href="/">View Site</a></li>
+                                <li><a href="/logout.ashx">Logout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+    <script type="text/javascript">
+
+        ddsmoothmenu.init({
+            mainmenuid: "smoothmenu1", //menu DIV id
+            orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+            classname: 'ddsmoothmenu', //class added to menu's outer DIV
+            //customtheme: ["#1c5a80", "#18374a"],
+            contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+        });
+
+        ddsmoothmenu.init({
+            mainmenuid: "smoothmenu2", //Menu DIV id
+            orientation: 'v', //Horizontal or vertical menu: Set to "h" or "v"
+            classname: 'ddsmoothmenu-v', //class added to menu's outer DIV
+            //customtheme: ["#804000", "#482400"],
+            contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+        });
+    </script>
+</body>
+</html>
